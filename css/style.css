@@ -1,0 +1,67 @@
+/*fonte não esta funfando*/
+@font-face {
+  font-family: utendo;
+  src: url(utendo/Utendo-Regular.ttf);
+}
+
+body{
+    font-family: utendo;
+}
+
+header{
+    background-color: #127BF3;
+}
+
+header img{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 7vh;
+    margin-left: 4.5vw;
+}
+
+.banner{
+    margin: 50px;
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 30px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+/*deixar imagem dos véio alinhada com a div (ela tá flutuando)*/
+.banner #idosos-banner{
+    height: 50vh;
+    width: auto;
+}
+
+.banner img{
+    height: 40vh;
+    width: auto;
+}
+
+.botao-banner{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #127BF3;
+    border-radius: 15px;
+
+    height: 15%;
+    margin-bottom: 15%;
+}
+
+.botao-banner img{
+    height: 20px;
+    padding-right: 10px;
+}
+
+.botao-banner button{
+    background-color: transparent;
+    border: none;
+    font-size: 25px;
+    color: white;
+}
