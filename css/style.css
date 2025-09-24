@@ -1,11 +1,11 @@
-/*fonte não esta funfando*/
 @font-face {
-  font-family: utendo;
-  src: url(utendo/Utendo-Regular.ttf);
+  font-family: utendo-regular;
+  src: url('utendo/Utendo-Regular.ttf');
 }
 
-body{
-    font-family: utendo;
+@font-face {
+  font-family: utendo-extra-bold;
+  src: url('utendo/Utendo-ExtraBold.ttf');
 }
 
 header{
@@ -48,14 +48,16 @@ header img{
     justify-content: center;
     align-items: center;
     background-color: #127BF3;
-    border-radius: 15px;
+    border-radius: 20px;
+    font-family: utendo-extra-bold;
 
-    height: 15%;
+    height: 10vh;
     margin-bottom: 15%;
+    margin-top: 10%;
 }
 
 .botao-banner img{
-    height: 20px;
+    height: 17px;
     padding-right: 10px;
 }
 
@@ -64,4 +66,6 @@ header img{
     border: none;
     font-size: 25px;
     color: white;
+    letter-spacing: 1px;
+    background-color: tomato;
 }
