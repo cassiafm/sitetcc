@@ -115,3 +115,31 @@ header img{
 .info-card.right{
     align-self: flex-end;
 }
+.app-section {
+  display: flex;
+  flex-direction: row;
+  font-family: utendo-extra-bold;
+    
+}
+.gambiarra{
+    color: white;
+    letter-spacing: 2px;
+    font-size: 45px;
+    padding-bottom: 20px;
+    font-family: utendo-extra-bold;
+
+
+
+}
+.app-texto{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    letter-spacing: 2px;
+    font-size: 20px;
+    padding-bottom: 20px;
+    font-family: utendo-extra-bold;
+}
+.app-homepage img{
+    width: 20vw;
+}
