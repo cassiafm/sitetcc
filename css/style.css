@@ -175,13 +175,25 @@ header img{
     justify-content: center;
 }
 
-.telas-cadastro img{
-    width: 40vw;
-    height: auto;
+.telas-cadastro img {
+  width: 30vw;
+  height: auto;
+  margin: 10vw 5vw;
+  margin-top: 4vh;
+  border-radius: 55px;
+  box-shadow: 16px 16px 12px rgba(0, 0, 0, 0.35); /* directional and natural */
 }
 
 .cadastro p{
     display: flex;
     justify-content: center;
     text-align: center;
+    margin: 0 10vw;
+}
+
+.imagem-seta{
+    display: flex;
+    justify-content: center;
+    margin: 7vh;
+    margin-top: 10vh;
 }
