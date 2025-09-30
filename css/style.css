@@ -8,6 +8,11 @@
   src: url('utendo/Utendo-ExtraBold.ttf');
 }
 
+@font-face {
+    font-family: utendo-bold;
+    src: url('utendo/Utendo-Bold.ttf');
+}
+
 a:hover{
     cursor: pointer;
 }
@@ -115,31 +120,68 @@ header img{
 .info-card.right{
     align-self: flex-end;
 }
-.app-section {
-  display: flex;
-  flex-direction: row;
-  font-family: utendo-extra-bold;
-    
+
+.aplicativo-info h1{
+    padding: 40px 0;
 }
-.gambiarra{
+
+.section-title{
+    font-family: utendo-bold;
     color: white;
-    letter-spacing: 2px;
-    font-size: 45px;
-    padding-bottom: 20px;
-    font-family: utendo-extra-bold;
-
-
-
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
 }
-.app-texto{
+
+.app-section{
+    display: flex;
+    margin: 40px;
+}
+
+.app-section img{
+    height: 90vh;
+    width: auto;
+}
+
+.app-text{
     display: flex;
     flex-direction: column;
-    color: white;
-    letter-spacing: 2px;
-    font-size: 20px;
-    padding-bottom: 20px;
-    font-family: utendo-extra-bold;
+    margin: 50px;
 }
-.app-homepage img{
-    width: 22vw;
+
+.informational-text{
+    font-family: utendo-bold;
+    color: white;
+    font-size: 25px;
+    padding-bottom: 40px;
+    letter-spacing: 0.5px;
+}
+
+
+/* Cadastro */
+
+.cadastro{
+    margin: 80px;
+}
+
+.cadastro img{
+    display: flex;
+
+}
+
+.telas-cadastro{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.telas-cadastro img{
+    width: 40vw;
+    height: auto;
+}
+
+.cadastro p{
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }
