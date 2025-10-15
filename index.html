@@ -13,18 +13,58 @@
 </head>
 
 <body>
-    <header>
-        <!--barra navegação-->
+    <!-- <header>
         <img src="img/logocomnomepng.png">
-    </header>
+    </header> -->
+    <nav class="navbar navbar-expand-lg" style="background-color: #127BF3;">
+        <div class="container-fluid">
+
+            <a class="navbar-brand" href="#">
+                <img src="img/logocomnomepng.png" alt="Logo">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                <div class="navbar-nav custom-nav-style">
+                    <a class="nav-link active text-white" aria-current="page" href="#">Mudar</a>
+                    <a class="nav-link text-white" href="#">Essa</a>
+                    <a class="nav-link text-white" href="#">Bomba</a>
+                    <a class="nav-link disabled text-white-50" aria-disabled="true">Aqui</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
     <section id="banner">
         <div class="banner">
-            <img src="img/idosos.png" id="idosos-banner">
+            <!-- <img src="img/idosos.png" id="idosos-banner">
             <div class="banner-content">
                 <img src="img/logobanner.svg">
                 <a>
                     <button type="button" class="btn btn-primary"><img src="img/setabotao.svg"> saiba mais</button>
                 </a>
+            </div> -->
+            <div class="container-fluid h-100">
+                <div class="row g-0 h-100">
+                    <div class="col-12 col-md-6 left-col order-1 order-md-1">
+                        <img src="img/idosos.png" alt="Imagem Idosos" class="left-img">
+                    </div>
+
+                    <div class="col-12 col-md-6 order-2 order-md-2">
+                        <div class="right-col h-100">
+                            <div class="right-top">
+                                <img src="img/logobanner.svg" alt="Logo Apoio Digital" class="fill-img">
+                            </div>
+                            <div class="right-bottom">
+                                <button type="button" class="btn btn-primary"><img src="img/setabotao.svg"> saiba mais</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="blue-bkg">
