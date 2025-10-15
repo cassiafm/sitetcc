@@ -51,7 +51,7 @@ header img{
     width: auto;
 }
 
-.botao-banner{
+.btn-primary{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -59,23 +59,19 @@ header img{
     background-color: #127BF3;
     border-radius: 20px;
     font-family: utendo-extra-bold;
-
+    font-size: 4vmin;
+    letter-spacing: 1px;
+    
     height: 10vh;
+    width: 100%;
     margin-bottom: 15%;
     margin-top: 10%;
 }
 
-.botao-banner button{
-    background-color: transparent;
-    border: none;
-    font-size: 25px;
-    color: white;
-    letter-spacing: 1px;
-}
-
-.botao-banner img{
-    height: 17px;
-    padding-right: 10px;
+.btn-primary img{
+    width: 2.7vmin;
+    height: auto;
+    margin-right: 2%;
 }
 
 /*Parte principal do site - azul*/
