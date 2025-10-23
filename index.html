@@ -5,8 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Apoio Digital</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" type="image/png" href="img/logo.png">
     <script src="js/script.js"></script>
@@ -18,12 +21,13 @@
     </header> -->
     <nav class="navbar navbar-expand-lg" style="background-color: #127BF3;">
         <div class="container-fluid">
-
             <a class="navbar-brand" href="#">
-                <img src="img/logocomnomepng.png" alt="Logo">
+                <img class="w-100" src="img/logocomnomepng.png" alt="Logo">
             </a>
 
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
@@ -60,7 +64,9 @@
                                 <img src="img/logobanner.svg" alt="Logo Apoio Digital" class="fill-img">
                             </div>
                             <div class="right-bottom">
-                                <button type="button" class="btn btn-primary"><img src="img/setabotao.svg"> saiba mais</button>
+                                <button type="button" class="btn btn-primary know-more-btn" id="know-more-btn">
+                                    <img src="img/setabotao.svg" class="onHoverSeta" id="onHoverSeta"> saiba
+                                    mais</button>
                             </div>
                         </div>
                     </div>
@@ -70,14 +76,19 @@
         <div class="blue-bkg">
             <div class="info-card left">
                 <h1>O que é o Apoio Digital?</h1>
-                <p>O Apoio Digital é um aplicativo criado especialmente para ajudar pessoas idosas a usarem a internet de forma fácil, segura e independente. Ele funciona como um assistente pessoal, guiando o usuário passo a passo em tarefas como fazer videochamadas, enviar mensagens, acessar serviços online e muito mais.</p>
+                <p>O Apoio Digital é um aplicativo criado especialmente para ajudar pessoas idosas a usarem a internet
+                    de forma fácil, segura e independente. Ele funciona como um assistente pessoal, guiando o usuário
+                    passo a passo em tarefas como fazer videochamadas, enviar mensagens, acessar serviços online e muito
+                    mais.</p>
             </div>
             <div class="info-card right">
                 <h1>Público Alvo</h1>
-                <p>Os idosos frequentemente encontram obstáculos significativos durante sua jornada de inclusão digital, incluindo limitações físicas e cognitivas, como a diminuição da visão e habilidades motoras, que dificultam a assimilação das novas tecnologias.</p>
+                <p>Os idosos frequentemente encontram obstáculos significativos durante sua jornada de inclusão digital,
+                    incluindo limitações físicas e cognitivas, como a diminuição da visão e habilidades motoras, que
+                    dificultam a assimilação das novas tecnologias.</p>
             </div>
-            
-                <!-- <h2 class="gambiarra">O aplicativo<br></h2>
+
+            <!-- <h2 class="gambiarra">O aplicativo<br></h2>
                 <section class="app-section">
                     
                     <div class="app-texto">
@@ -94,12 +105,13 @@
                     </div>
                 </section> -->
 
-            <section class="aplicativo-info">
+            <section class="aplicativo-info info-container">
                 <h1 class="section-title">O aplicativo</h1>
                 <div class="app-section">
                     <div class="app-text">
                         <p class="informational-text">
-                            O aplicativo funciona como um assistente pessoal, onde o usuário poderá praticar como usar os aplicativos do dia a dia
+                            O aplicativo funciona como um assistente pessoal, onde o usuário poderá praticar como usar
+                            os aplicativos do dia a dia
                         </p>
 
                         <p class="informational-text">
@@ -112,15 +124,17 @@
 
             <!-- Cadastro -->
 
-            <section class="cadastro">
-                <h1 class="section-title">O cadastro</h1> 
+            <section class="cadastro info-container">
+                <h1 class="section-title">O cadastro</h1>
                 <div class="imagem-seta"><img src="img/seta_cadastro.png"></div>
                 <div class="telas-cadastro">
                     <img src="img/tela_cadastro.png" alt="Tela de cadastro">
                     <img src="img/tela_cadastro_concluido.png" alt="tela de cadastro concluído">
                 </div>
-                <p class="informational-text">O cadastro do usuário foi projetado para ser simples, com o intuito de facilitar a compreensão do usuário</p>
+                <p class="informational-text">O cadastro do usuário foi projetado para ser simples, com o intuito de
+                    facilitar a compreensão do usuário</p>
             </section>
         </div>
     </section>
+    <script src="js/script.js"></script>
 </body>
