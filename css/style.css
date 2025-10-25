@@ -127,9 +127,8 @@
 /*oi*/
 .blue-bkg {
     background-color: #127BF3;
-    border-radius: 50px;
+    border-radius: 50px 50px 0 0;
     padding-top: 4vh;
-    padding-bottom: 1000px;
 
     display: flex;
     flex-direction: column;
@@ -211,7 +210,6 @@
 
 .cadastro img {
     display: flex;
-
 }
 
 .telas-cadastro {
@@ -242,6 +240,94 @@
     justify-content: center;
     margin: 7vh;
     margin-top: 10vh;
+}
+
+/* Configurações */
+
+.itens-config{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 6vw;
+}
+
+.itens-config img{
+    width: 30vw;
+    height: auto;
+    margin: 10vw 5vw;
+    margin-top: 4vh;
+    border-radius: 55px;
+    box-shadow: 16px 16px 12px rgba(0, 0, 0, 0.35);
+}
+
+.itens-config p{
+    margin: 7vh 2vw;
+}
+
+/* design */
+
+.design-title{
+    color: #127BF3;
+    margin-top: 5vh;
+}
+
+.design{
+    margin: 50px;
+    border: 1px solid #127BF3;
+    border-radius: 30px;
+    font-family: utendo-regular;
+    text-align: center;
+    
+    /* padding: 100px; */
+}
+
+.design-section-title{
+    color: #127BF3;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+/* Cores */
+
+.cores-title{
+    margin: 5vh 0;
+}
+
+.cores-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.color-block{
+    padding: 100px;
+    margin: 10vw;
+}
+
+/* esquerda */
+
+.color-block-left{
+    background-color: #127BF3;
+}
+
+.cor-bkg-left{
+    background-color: #dfdfdf;
+}
+
+/* direita */
+
+.color-block-right{
+    background-color: #dfdfdf;
+}
+
+.cor-bkg-right{
+    background-color: #127BF3;
+}
+
+.cor-content-right{
+    color: #dfdfdf;
 }
 
 @media (max-width: 870px) {
