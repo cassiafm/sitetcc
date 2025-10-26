@@ -266,6 +266,14 @@
 
 /* design */
 
+.informational-text-design{
+    font-family: utendo-bold;
+    color: black;
+    font-size: 25px;
+    padding-bottom: 40px;
+    letter-spacing: 0.5px;
+}
+
 .design-title{
     color: #127BF3;
     margin-top: 5vh;
@@ -286,12 +294,56 @@
     font-size: 30px;
     display: flex;
     justify-content: center;
+    margin: 5vh 0;
+}
+
+/* objetivo */
+
+.objetivo-content{
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: flex-start;
+    margin: 0 5vw;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    gap: 5vw;
+}
+
+.objetivo-container{
+    flex: 1;
+    align-items: stretch;
+    /* corrigir alinhamento das imagens */
+}
+
+.objetivo-container img{
+    width: 10vw;
+    height: auto;
+    margin-top: auto;
 }
 
 /* Cores */
 
+.cores{
+    position: relative;
+    z-index: 20;
+}
+
 .cores-title{
     margin: 5vh 0;
+}
+
+.cores-subtitle{
+    color: #dfdfdf;
+    background-color: #127BF3;
+    display: inline-block;
+    padding: 1.5vw;
+
+    position: absolute;
+    top: 25%;
+    transform: translateX(-50%);
+    z-index: 10;
 }
 
 .cores-container{
@@ -302,8 +354,22 @@
 }
 
 .color-block{
-    padding: 100px;
-    margin: 10vw;
+    padding: 10vw;
+    margin-top: 18vw;
+    margin-bottom: 10vw;
+}
+
+
+.cor-bkg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
 }
 
 /* esquerda */
@@ -328,6 +394,13 @@
 
 .cor-content-right{
     color: #dfdfdf;
+    margin: 0;
+    margin-bottom: 5vh;
+}
+
+.cor-content-left{
+    margin: 0;
+    margin-bottom: 5vh;
 }
 
 @media (max-width: 870px) {
