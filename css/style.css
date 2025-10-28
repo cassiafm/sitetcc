@@ -223,9 +223,8 @@
     height: auto;
     margin: 10vw 5vw;
     margin-top: 4vh;
-    border-radius: 55px;
-    box-shadow: 16px 16px 12px rgba(0, 0, 0, 0.35);
-    /* directional and natural */
+    /* border-radius: 55px; */
+    /* box-shadow: 16px 16px 12px rgba(0, 0, 0, 0.35); */
 }
 
 .cadastro p {
@@ -256,8 +255,8 @@
     height: auto;
     margin: 10vw 5vw;
     margin-top: 4vh;
-    border-radius: 55px;
-    box-shadow: 16px 16px 12px rgba(0, 0, 0, 0.35);
+    /* border-radius: 55px; */
+    /* box-shadow: 16px 16px 12px rgba(0, 0, 0, 0.35); */
 }
 
 .itens-config p{
@@ -352,7 +351,7 @@
 }
 
 .logo-subcontent img{
-    height: 40vh;
+    height: 30vh;
     width: auto;
 }
 
@@ -456,6 +455,10 @@
         min-height: auto;
     }
 
+    .section-title{
+        font-size: 40px;
+    }
+
     .banner .left-img {
         position: static;
         transform: none;
@@ -493,6 +496,7 @@
 
     .info-card {
         text-align: center;
+        align-self: center !important; 
     }
 
     .info-card > p, .info-container, .app-section{
@@ -503,11 +507,45 @@
         flex-direction: column-reverse !important;
     }
 
+    .app-section img{
+        margin: 0 5vw !important;
+        width: 100%;
+        height: auto;
+    }
+
+    .imagem-seta{
+        display: none;
+    }
+
+    .cadastro-concluido{
+        display: none !important;
+    }
+
     .info-container, .app-section{
         display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: column;
         text-align: center;
+        margin: 5vw !important;
     }
+
+    .info-container img{
+        width: 80%;
+        height: auto;
+    }
+
+    /* configuração */
+
+    .itens-config{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* passo a passo */
+
+    .passo-passo img{
+        justify-self: center !important;
+    }
+
 }
