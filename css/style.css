@@ -134,6 +134,12 @@ header {
     margin-right: 2%;
 }
 
+.right-bottom a{
+  display: inline-block;
+  width: 100%;
+  text-decoration: none;
+}
+
 /*Parte principal do site - azul*/
 /*oi*/
 .blue-bkg {
@@ -519,6 +525,7 @@ header {
     .info-card {
         text-align: center;
         align-self: center !important; 
+        margin: 5% 0;
     }
 
     .info-card > p, .info-container, .app-section{
